@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<title>Document</title>
+	<style type="text/css">
+		.logo{
+			text-decoration: none;
+			font-size: 1.3rem;
+			color: white;
+			
+		}
+		.logo:hover{
+			color:yellow;
+		}
+		.a{				
+			border-bottom-right-radius: 100%;
+			border-bottom-left-radius: 100%;
+		}
+		@media only screen and (min-width: 767px){
+			.nav-item:hover{
+				border-bottom: 1px solid white;
+			}
+			.nav-item{
+				padding-top: 5px;
+				border-bottom: 1px solid transparent;
+			}
+		}
+		body{
+			background: url(img2/arkaplan.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-attachment: fixed;
+		}
+
+	</style>
+</head>
+<body>
+
+		<form class="form-inline search2 justify-content-center p-3 bg-danger">
+		<input class="form-control rounded-0 col-md-6 col-10 w-100 " type="search" name="" placeholder="Aradığın herşey burada...">
+		<button class="btn btn-success rounded-0 pb-2" type="submit"><img src="img/search.png" width="20"></button>
+	</form>
+
+
+	<nav class="navbar navbar-expand-md bg-danger navbar-dark sticky-top ">
+
+		<a class="navbar-brand" href="">
+			<img src="img2/logo.png" width="50">
+		</a>
+		<div >
+			<a class="text-decoration-none logo" href="">haydi<em class="h3">GEL</em>içelim<span style="color: yellow;">.com</span></a>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fırat">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="fırat">
+			<ul class="navbar-nav ml-auto ">
+				<li class="nav-item">
+					<a class="nav-link text-white " href="index.html">Anasayfa</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white " href="#">Yemekler</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white " href="#">Tatlılar</a>
+				</li>
+				<li class="nav-item dropdown  ">
+					<a class="nav-link dropdown-toggle text-white " data-toggle="dropdown" href="#">Hakkımızda</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="">Misyon</a>
+						<a class="dropdown-item" href="">Vizyon</a>
+						<a class="dropdown-item" href="">Blog</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white " href="iletisim.html">İletişim</a>
+				</li>	
+			</ul>
+
+			
+		</div>
+
+	</nav>
+
+
+
+		<div class="container-fluid p-5">
+		<div class="container p-5 rounded " style="">
+			<form>
+				<div class="row">
+					<div class="form-group col-md-6">
+						<label>Email:</label>
+						<input type="email" class="form-control" placeholder="Enter email">
+					</div>
+					<div class="form-group col-md-6">
+						<label>Password:</label>
+						<input type="password" class="form-control" placeholder="Enter password">
+					</div>
+				</div>
+				<div class="form-group">
+					<label>Adress:</label>
+					<textarea style="min-height: 10rem;max-height: 15rem;" class="form-control"></textarea>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 form-group">
+						<label>City:</label>
+						<select class="form-control">
+							<option selected="selected">Bir il seçiniz</option>
+							<option>İstanbul</option>
+							<option>Ankara</option>
+							<option>Erzurum</option>
+						</select>
+					</div>
+					<div class="col-md-4 form-group">
+						<label>İlçe:</label>
+						<select class="form-control">
+							<option selected="selected">Bir ilçe seçiniz</option>
+							<option>Beşiktaş</option>
+							<option>Bağcılar</option>
+							<option>Beyoğlu</option>
+						</select>
+					</div>
+					<div class="col-md-2 form-group">
+						<label>Posta kodu:</label>
+						<input type="text" class="form-control" placeholder="Posta kodunu giriniz...">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="form-check">
+						<input type="checkbox" class="form-check-input">
+						<label>Check me out</label>
+					</div>
+				</div>  
+
+				<button type="submit" class="btn btn-primary col-md-2 col-12">Sign in</button>
+			</form>
+		</div>
+
+
+
+		</div>
+		<div class="container-fluid p-5 bg-danger ">
+		<div class="row">
+			<div class="col-12 text-center text-white">
+				<p>haydiGELyiyelim.com</p>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
